@@ -59,7 +59,16 @@ git clone [URL_DO_REPOSITÓRIO]
 cd [NOME_DA_PASTA]
 \`\`\`
 
+<<<<<<< HEAD
 2. Instale as dependências:
+=======
+2. Clone o repositório:
+\`\`\`bash
+cd [NOME_DA_PASTA]
+\`\`\`
+
+3. Instale as dependências:
+>>>>>>> 1c4d5b287ea98b7455081f2097e01c0722a664a9
 \`\`\`bash
 npm install
 # ou
