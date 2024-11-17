@@ -226,6 +226,55 @@ export default function Home() {
           </Card>
         </div>
       </main>
+
+      <footer className="w-full py-6 border-t dark:border-gray-800">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="flex items-center space-x-4">
+              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-xl">A</span>
+              </div>
+              <div className="text-left">
+                <p className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                  acamDeveloper
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Transformando ideias em código
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-6">
+              <a
+                href="https://github.com/acamDeveloper"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://linkedin.com/in/acamDeveloper"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="mailto:contato@acamdeveloper.com"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Contato
+              </a>
+            </div>
+
+            <div className="text-sm text-muted-foreground">
+              {new Date().getFullYear()} acamDeveloper. Todos os direitos reservados.
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
